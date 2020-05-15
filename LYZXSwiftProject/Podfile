@@ -1,0 +1,15 @@
+project 'LYZXSwiftProject.xcodeproj'
+platform :ios,'9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'LYZXSwiftProject' do
+    pod 'Alamofire'
+    pod 'SVProgressHUD'
+    pod 'SwiftyJSON'
+    pod 'TYAlertController'
+    pod 'SDCycleScrollView'
+    pod 'MJRefresh'
+    pod 'SDWebImage'
+    pod 'SnapKit'
+end
