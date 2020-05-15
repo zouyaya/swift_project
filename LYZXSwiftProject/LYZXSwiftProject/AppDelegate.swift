@@ -24,6 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = getTheRootViewController()
         window?.makeKeyAndVisible()
 
+        
+//        getTokenWithTheProject()
+        
+        
         return true
     }
     
@@ -54,6 +58,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        
         
     }
+    
+    
+    /**
+     获取项目的token
+     */
+    
+    private func getTokenWithTheProject(){
+        
+        YONewWorkRequestTool.requestTool.getPeojectTokenWith(Task: "ACCESSS_TOKEN") { (response) in
+            
+            let expireString = response.data!["expired_time"] as! NSNumber
+            let projectToken = response.data!["access_token"] as! String
+            let user = UserDefaults.standard
+            user.set(expireString, forKey: "expired_time")
+            user.set(projectToken, forKey: "access_token")
+           
+            print("网络获取的是  \(projectToken)")
+        }
+
+        
+    }
+    
+    
     
      func applicationWillResignActive(_ application: UIApplication) {
            // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

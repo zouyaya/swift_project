@@ -18,6 +18,7 @@
 		E7091690246A7A0D00A5D971 /* YONewWorkRequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709168F246A7A0D00A5D971 /* YONewWorkRequestTool.swift */; };
 		E7091692246A7DD400A5D971 /* NetConfiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7091691246A7DD400A5D971 /* NetConfiger.swift */; };
 		E7091696246A887200A5D971 /* YOProjectTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7091695246A887200A5D971 /* YOProjectTool.swift */; };
+		E7125CDE246E69AC00448931 /* YOLoginSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7125CDD246E69AC00448931 /* YOLoginSwitchViewController.swift */; };
 		E73D00052464631C00F54065 /* LYZXSwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D00042464631C00F54065 /* LYZXSwiftProjectTests.swift */; };
 		E73D00102464631C00F54065 /* LYZXSwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D000F2464631C00F54065 /* LYZXSwiftProjectUITests.swift */; };
 		E73DFFEE2464631A00F54065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73DFFED2464631A00F54065 /* AppDelegate.swift */; };
@@ -66,6 +67,7 @@
 		E709168F246A7A0D00A5D971 /* YONewWorkRequestTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YONewWorkRequestTool.swift; sourceTree = "<group>"; };
 		E7091691246A7DD400A5D971 /* NetConfiger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetConfiger.swift; sourceTree = "<group>"; };
 		E7091695246A887200A5D971 /* YOProjectTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOProjectTool.swift; sourceTree = "<group>"; };
+		E7125CDD246E69AC00448931 /* YOLoginSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLoginSwitchViewController.swift; sourceTree = "<group>"; };
 		E73D00002464631C00F54065 /* LYZXSwiftProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYZXSwiftProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73D00042464631C00F54065 /* LYZXSwiftProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYZXSwiftProjectTests.swift; sourceTree = "<group>"; };
 		E73D00062464631C00F54065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -336,6 +338,7 @@
 			isa = PBXGroup;
 			children = (
 				E77F89772469A53000D2E8E2 /* YOLoginChooseViewController.swift */,
+				E7125CDD246E69AC00448931 /* YOLoginSwitchViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -576,6 +579,7 @@
 				E7091685246A4DAA00A5D971 /* YOMneViewController.swift in Sources */,
 				E73DFFEE2464631A00F54065 /* AppDelegate.swift in Sources */,
 				E77F896D24699B8C00D2E8E2 /* Configer.swift in Sources */,
+				E7125CDE246E69AC00448931 /* YOLoginSwitchViewController.swift in Sources */,
 				E709168E246A710900A5D971 /* YONetWork.swift in Sources */,
 				E7091674246A3F7000A5D971 /* YOTabChangeViewController.swift in Sources */,
 				E7091687246A4DBD00A5D971 /* YOPatientListViewController.swift in Sources */,

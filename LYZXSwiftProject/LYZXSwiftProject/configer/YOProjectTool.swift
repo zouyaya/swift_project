@@ -22,5 +22,18 @@ class YOProjectTool: NSObject {
     
     
     
+    class func getToken()-> String{
+        
+        let token = UserDefaults.standard.object(forKey: "access_token") as! String
+        if token.count == 0 {
+            return ""
+        }else{
+            
+            return token;
+        }
+        
+        
+    }
+    
 
 }

@@ -106,8 +106,6 @@ class YOLoginChooseViewController: YOBaseViewController {
         
         
         
-        
-        
         let privateButton = UIButton(frame: CGRect(x: serviceButton.frame.maxX + 5, y: serviceButton.frame.minY, width: privateWidth, height: 12))
         privateButton.setTitle(privatePolocy, for: .normal)
         privateButton.setTitleColor(.colorWithHexStringWithoutAlpha("0x333333"), for: .normal)
@@ -134,8 +132,6 @@ class YOLoginChooseViewController: YOBaseViewController {
         serviceStr.addAttributes([NSAttributedString.Key.foregroundColor : UIColor.colorWithHexStringWithoutAlpha("0x333333")], range: NSMakeRange(14,11))
         serviceTelLabel.attributedText = serviceStr
 
-      
-        
         
     }
     
@@ -147,7 +143,6 @@ class YOLoginChooseViewController: YOBaseViewController {
             print("\(responseData.data!)")
             let urldetail  = responseData.data!["appdescUrl"] as! String
             self.protocolUrl = urldetail
-            
         }
         
         
@@ -157,7 +152,8 @@ class YOLoginChooseViewController: YOBaseViewController {
     
     @objc private func pressLoginAction(){
     
-        
+        let loginSwitchVC = YOLoginSwitchViewController()
+        self.navigationController?.pushViewController(loginSwitchVC, animated: true)
     
     }
     
