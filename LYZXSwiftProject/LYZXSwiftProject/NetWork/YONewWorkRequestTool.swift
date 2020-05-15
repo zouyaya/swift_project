@@ -31,9 +31,6 @@ class YONewWorkRequestTool: NSObject {
      *公共参数的封装
      */
     
-    
-    
-    
      var pararams : [String:String] = ["doctorId":"274",
                                        "doctorid":"274"
         ,"access_token":"\(YOProjectTool.getToken())","version_code":"4.1.0","platform":"IOS","app_name":"YSZS-IOS","IP":"192.168.0.1"]
@@ -127,6 +124,17 @@ class YONewWorkRequestTool: NSObject {
             
         }
  
+        
+    }
+    
+    
+    func loginUserWithParasmas(Task task: String,_ account:String,pswd password:String,type logintype:String,Handler comp: @escaping((result)->Void)) {
+        
+        pararams["task"] = task
+        pararams["account"] = account
+        pararams["loginType"] = logintype
+ 
+        
         
     }
     

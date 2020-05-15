@@ -24,14 +24,13 @@ class YOProjectTool: NSObject {
     
     class func getToken()-> String{
         
-        let token = UserDefaults.standard.object(forKey: "access_token") as! String
-        if token.count == 0 {
+        let token = UserDefaults.standard.object(forKey: "access_token") as? String
+        if nil == token {
+            
             return ""
         }else{
-            
-            return token;
+            return token!
         }
-        
         
     }
     

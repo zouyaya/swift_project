@@ -19,6 +19,7 @@
 		E7091692246A7DD400A5D971 /* NetConfiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7091691246A7DD400A5D971 /* NetConfiger.swift */; };
 		E7091696246A887200A5D971 /* YOProjectTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7091695246A887200A5D971 /* YOProjectTool.swift */; };
 		E7125CDE246E69AC00448931 /* YOLoginSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7125CDD246E69AC00448931 /* YOLoginSwitchViewController.swift */; };
+		E7125CE0246EB06D00448931 /* extentString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7125CDF246EB06D00448931 /* extentString.swift */; };
 		E73D00052464631C00F54065 /* LYZXSwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D00042464631C00F54065 /* LYZXSwiftProjectTests.swift */; };
 		E73D00102464631C00F54065 /* LYZXSwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D000F2464631C00F54065 /* LYZXSwiftProjectUITests.swift */; };
 		E73DFFEE2464631A00F54065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73DFFED2464631A00F54065 /* AppDelegate.swift */; };
@@ -68,6 +69,7 @@
 		E7091691246A7DD400A5D971 /* NetConfiger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetConfiger.swift; sourceTree = "<group>"; };
 		E7091695246A887200A5D971 /* YOProjectTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOProjectTool.swift; sourceTree = "<group>"; };
 		E7125CDD246E69AC00448931 /* YOLoginSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLoginSwitchViewController.swift; sourceTree = "<group>"; };
+		E7125CDF246EB06D00448931 /* extentString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extentString.swift; sourceTree = "<group>"; };
 		E73D00002464631C00F54065 /* LYZXSwiftProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYZXSwiftProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73D00042464631C00F54065 /* LYZXSwiftProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYZXSwiftProjectTests.swift; sourceTree = "<group>"; };
 		E73D00062464631C00F54065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			children = (
 				E7091676246A412E00A5D971 /* Image.swift */,
 				E7B1F9EE246BD35B00B389B5 /* YOString.swift */,
+				E7125CDF246EB06D00448931 /* extentString.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -572,6 +575,7 @@
 				E7091689246A4DD100A5D971 /* YOHomeViewController.swift in Sources */,
 				E7091690246A7A0D00A5D971 /* YONewWorkRequestTool.swift in Sources */,
 				E7091677246A412E00A5D971 /* Image.swift in Sources */,
+				E7125CE0246EB06D00448931 /* extentString.swift in Sources */,
 				E77F896F24699D0B00D2E8E2 /* YOIphoneXAdapter.swift in Sources */,
 				E7EFC5FD24696838006629BC /* UIColor.swift in Sources */,
 				E709168C246A538B00A5D971 /* YONetworkReachability.swift in Sources */,
@@ -743,6 +747,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F67BHAXG5X;
 				INFOPLIST_FILE = LYZXSwiftProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -761,6 +766,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F67BHAXG5X;
 				INFOPLIST_FILE = LYZXSwiftProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
