@@ -242,6 +242,29 @@ class YOLoginSwitchViewController: YOBaseViewController {
     
     @objc private func loginAction() {
         
+        
+        let account: String = phoneField.text!
+        let pasd:String = self.passwordField!.text!
+        print("登录时间\(account)  \(pasd)")
+        YONewWorkRequestTool.requestTool.loginUserWithParasmas(Task: "DOCTOR_LOGIN", tel: account, pswd: pasd, type: "0") { (responseData) in
+
+            print(responseData.data!)
+            //先把医生id存起来
+            let doctorid = responseData.data!["doctorid"] as! NSNumber
+   
+            
+            //说明医生id有值
+            self.view.endEditing(true)
+            UserDefaults.standard.set("\(doctorid)", forKey: "doctorId")
+            UserDefaults.standard.set("1", forKey: K_loginStatus)
+            (UIApplication.shared.delegate as? AppDelegate)?.window?.rootViewController = YOTabChangeViewController()
+
+            
+            
+
+        }
+        
+        
     }
 
     /*

@@ -31,8 +31,8 @@ class YONewWorkRequestTool: NSObject {
      *公共参数的封装
      */
     
-     var pararams : [String:String] = ["doctorId":"274",
-                                       "doctorid":"274"
+    var pararams : [String:String] = ["doctorId":"\(YOProjectTool.getDoctorId())",
+        "doctorid":"\(YOProjectTool.getDoctorId())"
         ,"access_token":"\(YOProjectTool.getToken())","version_code":"4.1.0","platform":"IOS","app_name":"YSZS-IOS","IP":"192.168.0.1"]
      
     func handleResponse(JSON json:JSON) -> result{
@@ -127,13 +127,36 @@ class YONewWorkRequestTool: NSObject {
         
     }
     
-    
-    func loginUserWithParasmas(Task task: String,_ account:String,pswd password:String,type logintype:String,Handler comp: @escaping((result)->Void)) {
+    /**
+     登录接口
+     */
+    func loginUserWithParasmas(Task task: String,tel phone:String,pswd password:String,type logintype:String,Handler comp: @escaping((result)->Void)) {
         
         pararams["task"] = task
-        pararams["account"] = account
+        pararams["account"] = phone
         pararams["loginType"] = logintype
- 
+        if logintype == "0"{
+            pararams["password"] = password.MD5
+        }else{
+            
+              pararams["password"] = password
+        }
+        
+        pararams["deviceUUID"] = UUID().uuidString
+        pararams["phoneModel"] = YOProjectTool.getTheCurrentPhone()
+        YONetWork.requestWith(Method: .post, URL: baseUrl + AppDoctor , Paramas: pararams, Token: nil) { (response) in
+
+               do{
+                   let json = try JSON(data: response.res_data!)
+                  if JSON.null != json{
+                     
+                     let aResult = self.handleResponse(JSON: json)
+                     comp(aResult)
+                 }
+                   
+               }catch{}
+            
+        }
         
         
     }
