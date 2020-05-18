@@ -18,6 +18,12 @@
 		E7091690246A7A0D00A5D971 /* YONewWorkRequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709168F246A7A0D00A5D971 /* YONewWorkRequestTool.swift */; };
 		E7091692246A7DD400A5D971 /* NetConfiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7091691246A7DD400A5D971 /* NetConfiger.swift */; };
 		E7091696246A887200A5D971 /* YOProjectTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7091695246A887200A5D971 /* YOProjectTool.swift */; };
+		E71016032472CD9200C2E08B /* YOAskPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71016022472CD9200C2E08B /* YOAskPatientViewController.swift */; };
+		E71016052472CF0900C2E08B /* YODoctorAssistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71016042472CF0900C2E08B /* YODoctorAssistViewController.swift */; };
+		E71016092472D0F000C2E08B /* YOMedicalCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71016082472D0F000C2E08B /* YOMedicalCenterViewController.swift */; };
+		E710160D2472D19200C2E08B /* YOMyDrugRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E710160C2472D19200C2E08B /* YOMyDrugRoomViewController.swift */; };
+		E71016112472D24600C2E08B /* YOSchemeduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71016102472D24600C2E08B /* YOSchemeduleViewController.swift */; };
+		E71016152472D2D400C2E08B /* YOHuanJiaoMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71016142472D2D400C2E08B /* YOHuanJiaoMainViewController.swift */; };
 		E7125CDE246E69AC00448931 /* YOLoginSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7125CDD246E69AC00448931 /* YOLoginSwitchViewController.swift */; };
 		E7125CE0246EB06D00448931 /* extentString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7125CDF246EB06D00448931 /* extentString.swift */; };
 		E73D00052464631C00F54065 /* LYZXSwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D00042464631C00F54065 /* LYZXSwiftProjectTests.swift */; };
@@ -25,6 +31,9 @@
 		E73DFFEE2464631A00F54065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73DFFED2464631A00F54065 /* AppDelegate.swift */; };
 		E73DFFF72464631B00F54065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73DFFF62464631B00F54065 /* Assets.xcassets */; };
 		E73DFFFA2464631B00F54065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73DFFF82464631B00F54065 /* LaunchScreen.storyboard */; };
+		E76CE6A424726BB600F1197E /* YOBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CE6A324726BB600F1197E /* YOBannerCollectionViewCell.swift */; };
+		E76CE6A62472899200F1197E /* YOHomeOPerationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CE6A52472899200F1197E /* YOHomeOPerationCollectionViewCell.swift */; };
+		E76CE6A82472936700F1197E /* YOHomeFuncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CE6A72472936700F1197E /* YOHomeFuncButton.swift */; };
 		E77F896D24699B8C00D2E8E2 /* Configer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F896C24699B8C00D2E8E2 /* Configer.swift */; };
 		E77F896F24699D0B00D2E8E2 /* YOIphoneXAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F896E24699D0B00D2E8E2 /* YOIphoneXAdapter.swift */; };
 		E77F89712469A14600D2E8E2 /* YOBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F89702469A14600D2E8E2 /* YOBaseViewController.swift */; };
@@ -32,6 +41,8 @@
 		E7B1F9EF246BD35B00B389B5 /* YOString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1F9EE246BD35B00B389B5 /* YOString.swift */; };
 		E7B1F9F0246BE2C200B389B5 /* YOLoginChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F89772469A53000D2E8E2 /* YOLoginChooseViewController.swift */; };
 		E7B1F9F3246BF56D00B389B5 /* YOServiceProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1F9F2246BF56D00B389B5 /* YOServiceProtocolViewController.swift */; };
+		E7DFEFDA246FDC9A00B182F1 /* YODoctorInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DFEFD9246FDC9A00B182F1 /* YODoctorInfoModel.swift */; };
+		E7DFEFDC246FF77F00B182F1 /* YOMedicineListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DFEFDB246FF77F00B182F1 /* YOMedicineListModel.swift */; };
 		E7EFC5F4246957EA006629BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EFC5F3246957EA006629BC /* Main.storyboard */; };
 		E7EFC5F924695FF6006629BC /* YONavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EFC5F824695FF6006629BC /* YONavBarView.swift */; };
 		E7EFC5FD24696838006629BC /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EFC5FC24696838006629BC /* UIColor.swift */; };
@@ -68,6 +79,12 @@
 		E709168F246A7A0D00A5D971 /* YONewWorkRequestTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YONewWorkRequestTool.swift; sourceTree = "<group>"; };
 		E7091691246A7DD400A5D971 /* NetConfiger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetConfiger.swift; sourceTree = "<group>"; };
 		E7091695246A887200A5D971 /* YOProjectTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOProjectTool.swift; sourceTree = "<group>"; };
+		E71016022472CD9200C2E08B /* YOAskPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOAskPatientViewController.swift; sourceTree = "<group>"; };
+		E71016042472CF0900C2E08B /* YODoctorAssistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YODoctorAssistViewController.swift; sourceTree = "<group>"; };
+		E71016082472D0F000C2E08B /* YOMedicalCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOMedicalCenterViewController.swift; sourceTree = "<group>"; };
+		E710160C2472D19200C2E08B /* YOMyDrugRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOMyDrugRoomViewController.swift; sourceTree = "<group>"; };
+		E71016102472D24600C2E08B /* YOSchemeduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOSchemeduleViewController.swift; sourceTree = "<group>"; };
+		E71016142472D2D400C2E08B /* YOHuanJiaoMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOHuanJiaoMainViewController.swift; sourceTree = "<group>"; };
 		E7125CDD246E69AC00448931 /* YOLoginSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLoginSwitchViewController.swift; sourceTree = "<group>"; };
 		E7125CDF246EB06D00448931 /* extentString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extentString.swift; sourceTree = "<group>"; };
 		E73D00002464631C00F54065 /* LYZXSwiftProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYZXSwiftProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,12 +98,17 @@
 		E73DFFF62464631B00F54065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E73DFFF92464631B00F54065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E73DFFFB2464631B00F54065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76CE6A324726BB600F1197E /* YOBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOBannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		E76CE6A52472899200F1197E /* YOHomeOPerationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOHomeOPerationCollectionViewCell.swift; sourceTree = "<group>"; };
+		E76CE6A72472936700F1197E /* YOHomeFuncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOHomeFuncButton.swift; sourceTree = "<group>"; };
 		E77F896C24699B8C00D2E8E2 /* Configer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configer.swift; sourceTree = "<group>"; };
 		E77F896E24699D0B00D2E8E2 /* YOIphoneXAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOIphoneXAdapter.swift; sourceTree = "<group>"; };
 		E77F89702469A14600D2E8E2 /* YOBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOBaseViewController.swift; sourceTree = "<group>"; };
 		E77F89772469A53000D2E8E2 /* YOLoginChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLoginChooseViewController.swift; sourceTree = "<group>"; };
 		E7B1F9EE246BD35B00B389B5 /* YOString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOString.swift; sourceTree = "<group>"; };
 		E7B1F9F2246BF56D00B389B5 /* YOServiceProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOServiceProtocolViewController.swift; sourceTree = "<group>"; };
+		E7DFEFD9246FDC9A00B182F1 /* YODoctorInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YODoctorInfoModel.swift; sourceTree = "<group>"; };
+		E7DFEFDB246FF77F00B182F1 /* YOMedicineListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOMedicineListModel.swift; sourceTree = "<group>"; };
 		E7EFC5F3246957EA006629BC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E7EFC5F824695FF6006629BC /* YONavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YONavBarView.swift; sourceTree = "<group>"; };
 		E7EFC5FC24696838006629BC /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
@@ -179,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				E7091688246A4DD100A5D971 /* YOHomeViewController.swift */,
+				E71016022472CD9200C2E08B /* YOAskPatientViewController.swift */,
+				E71016042472CF0900C2E08B /* YODoctorAssistViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -186,6 +210,9 @@
 		E709167C246A4D3C00A5D971 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E76CE6A324726BB600F1197E /* YOBannerCollectionViewCell.swift */,
+				E76CE6A52472899200F1197E /* YOHomeOPerationCollectionViewCell.swift */,
+				E76CE6A72472936700F1197E /* YOHomeFuncButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +220,7 @@
 		E709167D246A4D4300A5D971 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E7DFEFDB246FF77F00B182F1 /* YOMedicineListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -249,6 +277,70 @@
 				E709168F246A7A0D00A5D971 /* YONewWorkRequestTool.swift */,
 			);
 			path = NetWork;
+			sourceTree = "<group>";
+		};
+		E71016062472D0BB00C2E08B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E71016072472D0CC00C2E08B /* controller */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E71016072472D0CC00C2E08B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E71016082472D0F000C2E08B /* YOMedicalCenterViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E710160A2472D15000C2E08B /* drugRoom */ = {
+			isa = PBXGroup;
+			children = (
+				E710160B2472D15D00C2E08B /* controller */,
+			);
+			path = drugRoom;
+			sourceTree = "<group>";
+		};
+		E710160B2472D15D00C2E08B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E710160C2472D19200C2E08B /* YOMyDrugRoomViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E710160E2472D20A00C2E08B /* medicoDiagnose */ = {
+			isa = PBXGroup;
+			children = (
+				E710160F2472D21E00C2E08B /* controller */,
+			);
+			path = medicoDiagnose;
+			sourceTree = "<group>";
+		};
+		E710160F2472D21E00C2E08B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E71016102472D24600C2E08B /* YOSchemeduleViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E71016122472D29F00C2E08B /* HuanJiaoCenter */ = {
+			isa = PBXGroup;
+			children = (
+				E71016132472D2B700C2E08B /* controller */,
+			);
+			path = HuanJiaoCenter;
+			sourceTree = "<group>";
+		};
+		E71016132472D2B700C2E08B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E71016142472D2D400C2E08B /* YOHuanJiaoMainViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 		E73D00032464631C00F54065 /* LYZXSwiftProjectTests */ = {
@@ -320,6 +412,10 @@
 		E77F89742469A4DF00D2E8E2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E71016122472D29F00C2E08B /* HuanJiaoCenter */,
+				E710160E2472D20A00C2E08B /* medicoDiagnose */,
+				E710160A2472D15000C2E08B /* drugRoom */,
+				E71016062472D0BB00C2E08B /* Repository */,
 				E7B1F9F1246BF53B00B389B5 /* webViewController */,
 				E709167A246A4D1E00A5D971 /* mine */,
 				E7091679246A4D1400A5D971 /* Patient */,
@@ -332,6 +428,7 @@
 		E77F89752469A4E500D2E8E2 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				E7DFEFD8246FDC7400B182F1 /* Model */,
 				E77F89762469A4EE00D2E8E2 /* controller */,
 			);
 			path = Login;
@@ -352,6 +449,14 @@
 				E7B1F9F2246BF56D00B389B5 /* YOServiceProtocolViewController.swift */,
 			);
 			path = webViewController;
+			sourceTree = "<group>";
+		};
+		E7DFEFD8246FDC7400B182F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7DFEFD9246FDC9A00B182F1 /* YODoctorInfoModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E7EFC5F524695E70006629BC /* Base */ = {
@@ -578,16 +683,27 @@
 				E7125CE0246EB06D00448931 /* extentString.swift in Sources */,
 				E77F896F24699D0B00D2E8E2 /* YOIphoneXAdapter.swift in Sources */,
 				E7EFC5FD24696838006629BC /* UIColor.swift in Sources */,
+				E71016032472CD9200C2E08B /* YOAskPatientViewController.swift in Sources */,
+				E7DFEFDA246FDC9A00B182F1 /* YODoctorInfoModel.swift in Sources */,
 				E709168C246A538B00A5D971 /* YONetworkReachability.swift in Sources */,
+				E71016112472D24600C2E08B /* YOSchemeduleViewController.swift in Sources */,
+				E76CE6A82472936700F1197E /* YOHomeFuncButton.swift in Sources */,
 				E77F89712469A14600D2E8E2 /* YOBaseViewController.swift in Sources */,
+				E71016092472D0F000C2E08B /* YOMedicalCenterViewController.swift in Sources */,
+				E7DFEFDC246FF77F00B182F1 /* YOMedicineListModel.swift in Sources */,
 				E7091685246A4DAA00A5D971 /* YOMneViewController.swift in Sources */,
+				E710160D2472D19200C2E08B /* YOMyDrugRoomViewController.swift in Sources */,
+				E76CE6A62472899200F1197E /* YOHomeOPerationCollectionViewCell.swift in Sources */,
 				E73DFFEE2464631A00F54065 /* AppDelegate.swift in Sources */,
+				E76CE6A424726BB600F1197E /* YOBannerCollectionViewCell.swift in Sources */,
 				E77F896D24699B8C00D2E8E2 /* Configer.swift in Sources */,
+				E71016152472D2D400C2E08B /* YOHuanJiaoMainViewController.swift in Sources */,
 				E7125CDE246E69AC00448931 /* YOLoginSwitchViewController.swift in Sources */,
 				E709168E246A710900A5D971 /* YONetWork.swift in Sources */,
 				E7091674246A3F7000A5D971 /* YOTabChangeViewController.swift in Sources */,
 				E7091687246A4DBD00A5D971 /* YOPatientListViewController.swift in Sources */,
 				E7B1F9F3246BF56D00B389B5 /* YOServiceProtocolViewController.swift in Sources */,
+				E71016052472CF0900C2E08B /* YODoctorAssistViewController.swift in Sources */,
 				E77F89782469A53000D2E8E2 /* YOLoginChooseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,4 +12,6 @@ target 'LYZXSwiftProject' do
     pod 'MJRefresh'
     pod 'SDWebImage'
     pod 'SnapKit'
+    pod 'HandyJSON'
+    pod 'Kingfisher'
 end

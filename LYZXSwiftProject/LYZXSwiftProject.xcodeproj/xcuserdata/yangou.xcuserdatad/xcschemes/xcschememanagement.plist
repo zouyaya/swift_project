@@ -7,7 +7,25 @@
 		<key>LYZXSwiftProject.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>11</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E73D000A2464631C00F54065</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E73DFFE92464631A00F54065</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E73DFFFF2464631C00F54065</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
