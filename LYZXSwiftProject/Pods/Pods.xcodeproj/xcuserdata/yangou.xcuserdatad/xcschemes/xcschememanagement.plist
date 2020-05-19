@@ -12,6 +12,7 @@
 			<integer>0</integer>
 		</dict>
 		<key>HandyJSON.xcscheme</key>
+<<<<<<< HEAD
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -22,18 +23,34 @@
 			<integer>2</integer>
 		</dict>
 		<key>MJRefresh.xcscheme</key>
+=======
+>>>>>>> studySelf
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Pods-LYZXSwiftProject.xcscheme</key>
+		<key>Kingfisher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Pods-LYZXSwiftProject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>SDCycleScrollView.xcscheme</key>
 		<dict>
@@ -47,7 +64,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>8</integer>
 		</dict>
 		<key>SVProgressHUD.xcscheme</key>
 		<dict>

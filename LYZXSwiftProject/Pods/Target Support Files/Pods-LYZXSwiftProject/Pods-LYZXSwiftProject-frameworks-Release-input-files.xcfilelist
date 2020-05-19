@@ -1,5 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-LYZXSwiftProject/Pods-LYZXSwiftProject-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
 ${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
 ${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework
 ${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

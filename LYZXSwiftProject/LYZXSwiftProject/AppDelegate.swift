@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
 
         
-//        getTokenWithTheProject()
+        getTokenWithTheProject()
 //
         
         return true
@@ -40,20 +40,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let userDefault = UserDefaults.standard
         let loginStatus: String? = userDefault.string(forKey: K_loginStatus)
-       print("当前登录的状态是  \(loginStatus!)")
+//       print("当前登录的状态是  \(loginStatus!)")
         if loginStatus == "0" {
-            
+
             //未登录状态跳转到选择登录页面
             let rootVC = YOLoginChooseViewController()
             let navVC = UINavigationController.init(rootViewController: rootVC)
             return navVC
             
         }else{
-            
+
             let rootVC = YOTabChangeViewController()
             return rootVC
-            
-            
+
+
         }
        
         

@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (4.9.1)
+  - HandyJSON (5.0.1)
+  - Kingfisher (4.10.1)
   - MJRefresh (3.4.1)
   - SDCycleScrollView (1.80):
     - SDWebImage (>= 5.0.0)
@@ -13,6 +15,8 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - HandyJSON
+  - Kingfisher
   - MJRefresh
   - SDCycleScrollView
   - SDWebImage
@@ -24,6 +28,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - HandyJSON
+    - Kingfisher
     - MJRefresh
     - SDCycleScrollView
     - SDWebImage
@@ -34,6 +40,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
   SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
   SDWebImage: d9ea4959d99c52276dfada481987018fcaea3d58
@@ -42,6 +50,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   TYAlertController: c121090edb0bea7426f987da94cdddd81eef4231
 
-PODFILE CHECKSUM: 4f74a60be39b0003f4da1f958438569ec003cc7d
+PODFILE CHECKSUM: 67bcdfab68a02a61788596ebf8389d5dfc1f5f41
 
 COCOAPODS: 1.8.4

@@ -16,7 +16,7 @@ class YONewWorkRequestTool: NSObject {
     
     static let requestTool = YONewWorkRequestTool()
     
-    let baseUrl = "http://admin.liangyizaixian.com/api/"
+    let baseUrl = "http://core-beta.liangyizaixian.com/api/"
     
     struct result {
         
@@ -24,6 +24,7 @@ class YONewWorkRequestTool: NSObject {
         var ret :Int?
         var msg :String?
         var data :[String:Any]?
+        var array:[Any]?
 
     }
     
@@ -37,7 +38,7 @@ class YONewWorkRequestTool: NSObject {
      
     func handleResponse(JSON json:JSON) -> result{
         
-        return result(succ: true, ret: json["ret"].int, msg: json["msg"].string, data: json["data"].dictionaryObject)
+        return result(succ: true, ret: json["ret"].int, msg: json["msg"].string, data: json["data"].dictionaryObject, array: json["data"].arrayObject)
     }
     
     
@@ -160,6 +161,77 @@ class YONewWorkRequestTool: NSObject {
         
         
     }
+    
+    
+    func getHomeChatList(Task task: String,hourFormat hour :String,Handler comp: @escaping((result)->Void)) {
+        
+        pararams["task"] = task
+        pararams["hourSystem"] = hour
+        YONetWork.requestWith(Method: .post, URL: baseUrl + AppDoctor , Paramas: pararams, Token: nil) { (response) in
+
+               do{
+                   let json = try JSON(data: response.res_data!)
+                  if JSON.null != json{
+                     
+                     let aResult = self.handleResponse(JSON: json)
+                     comp(aResult)
+                 }
+                   
+               }catch{}
+            
+        }
+
+        
+    }
+    
+    
+    func getCommonUseMedicineList(Task task :String,currentPage PageNo :String,maxRequest pageSize: String,Handler comp: @escaping((result)->Void)){
+        
+    
+        pararams["task"] = task;
+        pararams["pageNo"] = PageNo
+        pararams["pageSize"] = pageSize
+        YONetWork.requestWith(Method: .get, URL: baseUrl + AppDrug , Paramas: pararams, Token: nil) { (response) in
+            
+               do{
+                  let json = try JSON(data: response.res_data!)
+                  if JSON.null != json{
+                     
+                     let aResult = self.handleResponse(JSON: json)
+                    
+                     comp(aResult)
+                 }
+                   
+               }catch{}
+            
+        }
+        
+        
+    }
+    
+    
+    func getHomeBanner(Task task: String,Handler comp: @escaping((result)->Void)) {
+        
+        pararams["task"] = task
+        YONetWork.requestWith(Method: .get, URL: baseUrl + AppsSys , Paramas: pararams, Token: nil) { (response) in
+            
+               do{
+                  let json = try JSON(data: response.res_data!)
+                print(json)
+                  if JSON.null != json{
+                     
+                     let aResult = self.handleResponse(JSON: json)
+                    
+                     comp(aResult)
+                 }
+                   
+               }catch{}
+            
+        }
+        
+        
+    }
+    
     
     
 }
