@@ -15,10 +15,9 @@ class YOMyDrugRoomViewController: YOBaseViewController {
 
         self.view.backgroundColor = .colorWithHexStringWithoutAlpha("0xffffff")
         self.navBar.titleLabel.text = "我的药房"
-       
+
         
     }
-    
 
     /*
     // MARK: - Navigation

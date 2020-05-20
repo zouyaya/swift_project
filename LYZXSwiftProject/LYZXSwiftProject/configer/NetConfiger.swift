@@ -16,4 +16,4 @@ let AppDoctor = "app/doctor"
 let AppCommon = "common"
 let AppDrug   = "app/drug/V2"
 let AppsSys   = "app/sys"
-
+let AppSystemMsg = "app/systemMsg"

@@ -31,6 +31,10 @@
 		E73DFFEE2464631A00F54065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73DFFED2464631A00F54065 /* AppDelegate.swift */; };
 		E73DFFF72464631B00F54065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73DFFF62464631B00F54065 /* Assets.xcassets */; };
 		E73DFFFA2464631B00F54065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73DFFF82464631B00F54065 /* LaunchScreen.storyboard */; };
+		E74A3F4C247377E400A81334 /* YOHomeChatItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A3F4B247377E400A81334 /* YOHomeChatItemCollectionViewCell.swift */; };
+		E74A3F4E2473827900A81334 /* YOHomeSystemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A3F4D2473827900A81334 /* YOHomeSystemCollectionViewCell.swift */; };
+		E74A3F522473BF7D00A81334 /* YOSystemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A3F512473BF7D00A81334 /* YOSystemListViewController.swift */; };
+		E74A3F572473D69500A81334 /* YOSystemMsgTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A3F562473D69500A81334 /* YOSystemMsgTextTableViewCell.swift */; };
 		E76CE6A424726BB600F1197E /* YOBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CE6A324726BB600F1197E /* YOBannerCollectionViewCell.swift */; };
 		E76CE6A62472899200F1197E /* YOHomeOPerationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CE6A52472899200F1197E /* YOHomeOPerationCollectionViewCell.swift */; };
 		E76CE6A82472936700F1197E /* YOHomeFuncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CE6A72472936700F1197E /* YOHomeFuncButton.swift */; };
@@ -38,6 +42,8 @@
 		E77F896F24699D0B00D2E8E2 /* YOIphoneXAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F896E24699D0B00D2E8E2 /* YOIphoneXAdapter.swift */; };
 		E77F89712469A14600D2E8E2 /* YOBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F89702469A14600D2E8E2 /* YOBaseViewController.swift */; };
 		E77F89782469A53000D2E8E2 /* YOLoginChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F89772469A53000D2E8E2 /* YOLoginChooseViewController.swift */; };
+		E78A33FE2474D0BF000B03D6 /* YOSystemMsgPicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A33FD2474D0BF000B03D6 /* YOSystemMsgPicTableViewCell.swift */; };
+		E78A3400247505A0000B03D6 /* YOSystemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A33FF247505A0000B03D6 /* YOSystemDetailViewController.swift */; };
 		E7B1F9EF246BD35B00B389B5 /* YOString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1F9EE246BD35B00B389B5 /* YOString.swift */; };
 		E7B1F9F0246BE2C200B389B5 /* YOLoginChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F89772469A53000D2E8E2 /* YOLoginChooseViewController.swift */; };
 		E7B1F9F3246BF56D00B389B5 /* YOServiceProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1F9F2246BF56D00B389B5 /* YOServiceProtocolViewController.swift */; };
@@ -98,6 +104,10 @@
 		E73DFFF62464631B00F54065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E73DFFF92464631B00F54065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E73DFFFB2464631B00F54065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74A3F4B247377E400A81334 /* YOHomeChatItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOHomeChatItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		E74A3F4D2473827900A81334 /* YOHomeSystemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOHomeSystemCollectionViewCell.swift; sourceTree = "<group>"; };
+		E74A3F512473BF7D00A81334 /* YOSystemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOSystemListViewController.swift; sourceTree = "<group>"; };
+		E74A3F562473D69500A81334 /* YOSystemMsgTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOSystemMsgTextTableViewCell.swift; sourceTree = "<group>"; };
 		E76CE6A324726BB600F1197E /* YOBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOBannerCollectionViewCell.swift; sourceTree = "<group>"; };
 		E76CE6A52472899200F1197E /* YOHomeOPerationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOHomeOPerationCollectionViewCell.swift; sourceTree = "<group>"; };
 		E76CE6A72472936700F1197E /* YOHomeFuncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOHomeFuncButton.swift; sourceTree = "<group>"; };
@@ -105,6 +115,8 @@
 		E77F896E24699D0B00D2E8E2 /* YOIphoneXAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOIphoneXAdapter.swift; sourceTree = "<group>"; };
 		E77F89702469A14600D2E8E2 /* YOBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOBaseViewController.swift; sourceTree = "<group>"; };
 		E77F89772469A53000D2E8E2 /* YOLoginChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLoginChooseViewController.swift; sourceTree = "<group>"; };
+		E78A33FD2474D0BF000B03D6 /* YOSystemMsgPicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOSystemMsgPicTableViewCell.swift; sourceTree = "<group>"; };
+		E78A33FF247505A0000B03D6 /* YOSystemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOSystemDetailViewController.swift; sourceTree = "<group>"; };
 		E7B1F9EE246BD35B00B389B5 /* YOString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOString.swift; sourceTree = "<group>"; };
 		E7B1F9F2246BF56D00B389B5 /* YOServiceProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOServiceProtocolViewController.swift; sourceTree = "<group>"; };
 		E7DFEFD9246FDC9A00B182F1 /* YODoctorInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YODoctorInfoModel.swift; sourceTree = "<group>"; };
@@ -213,6 +225,8 @@
 				E76CE6A324726BB600F1197E /* YOBannerCollectionViewCell.swift */,
 				E76CE6A52472899200F1197E /* YOHomeOPerationCollectionViewCell.swift */,
 				E76CE6A72472936700F1197E /* YOHomeFuncButton.swift */,
+				E74A3F4B247377E400A81334 /* YOHomeChatItemCollectionViewCell.swift */,
+				E74A3F4D2473827900A81334 /* YOHomeSystemCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -399,6 +413,33 @@
 			path = LYZXSwiftProject;
 			sourceTree = "<group>";
 		};
+		E74A3F4F2473BF4C00A81334 /* systemMsg */ = {
+			isa = PBXGroup;
+			children = (
+				E74A3F552473D4D100A81334 /* view */,
+				E74A3F502473BF5600A81334 /* controller */,
+			);
+			path = systemMsg;
+			sourceTree = "<group>";
+		};
+		E74A3F502473BF5600A81334 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E74A3F512473BF7D00A81334 /* YOSystemListViewController.swift */,
+				E78A33FF247505A0000B03D6 /* YOSystemDetailViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E74A3F552473D4D100A81334 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E74A3F562473D69500A81334 /* YOSystemMsgTextTableViewCell.swift */,
+				E78A33FD2474D0BF000B03D6 /* YOSystemMsgPicTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		E77F896B24699B7300D2E8E2 /* configer */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,6 +453,7 @@
 		E77F89742469A4DF00D2E8E2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E74A3F4F2473BF4C00A81334 /* systemMsg */,
 				E71016122472D29F00C2E08B /* HuanJiaoCenter */,
 				E710160E2472D20A00C2E08B /* medicoDiagnose */,
 				E710160A2472D15000C2E08B /* drugRoom */,
@@ -677,6 +719,7 @@
 				E7EFC5F924695FF6006629BC /* YONavBarView.swift in Sources */,
 				E7B1F9EF246BD35B00B389B5 /* YOString.swift in Sources */,
 				E7091696246A887200A5D971 /* YOProjectTool.swift in Sources */,
+				E74A3F4C247377E400A81334 /* YOHomeChatItemCollectionViewCell.swift in Sources */,
 				E7091689246A4DD100A5D971 /* YOHomeViewController.swift in Sources */,
 				E7091690246A7A0D00A5D971 /* YONewWorkRequestTool.swift in Sources */,
 				E7091677246A412E00A5D971 /* Image.swift in Sources */,
@@ -685,6 +728,7 @@
 				E7EFC5FD24696838006629BC /* UIColor.swift in Sources */,
 				E71016032472CD9200C2E08B /* YOAskPatientViewController.swift in Sources */,
 				E7DFEFDA246FDC9A00B182F1 /* YODoctorInfoModel.swift in Sources */,
+				E74A3F572473D69500A81334 /* YOSystemMsgTextTableViewCell.swift in Sources */,
 				E709168C246A538B00A5D971 /* YONetworkReachability.swift in Sources */,
 				E71016112472D24600C2E08B /* YOSchemeduleViewController.swift in Sources */,
 				E76CE6A82472936700F1197E /* YOHomeFuncButton.swift in Sources */,
@@ -701,7 +745,11 @@
 				E7125CDE246E69AC00448931 /* YOLoginSwitchViewController.swift in Sources */,
 				E709168E246A710900A5D971 /* YONetWork.swift in Sources */,
 				E7091674246A3F7000A5D971 /* YOTabChangeViewController.swift in Sources */,
+				E74A3F522473BF7D00A81334 /* YOSystemListViewController.swift in Sources */,
 				E7091687246A4DBD00A5D971 /* YOPatientListViewController.swift in Sources */,
+				E78A33FE2474D0BF000B03D6 /* YOSystemMsgPicTableViewCell.swift in Sources */,
+				E74A3F4E2473827900A81334 /* YOHomeSystemCollectionViewCell.swift in Sources */,
+				E78A3400247505A0000B03D6 /* YOSystemDetailViewController.swift in Sources */,
 				E7B1F9F3246BF56D00B389B5 /* YOServiceProtocolViewController.swift in Sources */,
 				E71016052472CF0900C2E08B /* YODoctorAssistViewController.swift in Sources */,
 				E77F89782469A53000D2E8E2 /* YOLoginChooseViewController.swift in Sources */,
