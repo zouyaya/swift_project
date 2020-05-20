@@ -16,7 +16,7 @@ class YONewWorkRequestTool: NSObject {
     
     static let requestTool = YONewWorkRequestTool()
     
-    let baseUrl = "http://core-beta.liangyizaixian.com/api/"
+    let baseUrl = "http://admin.liangyizaixian.com/api/"
     
     struct result {
         
@@ -163,6 +163,9 @@ class YONewWorkRequestTool: NSObject {
     }
     
     
+    /**
+     获取首页聊天记录
+     */
     func getHomeChatList(Task task: String,hourFormat hour :String,Handler comp: @escaping((result)->Void)) {
         
         pararams["task"] = task
@@ -210,6 +213,9 @@ class YONewWorkRequestTool: NSObject {
     }
     
     
+    /**
+     获取首页banner
+     */
     func getHomeBanner(Task task: String,Handler comp: @escaping((result)->Void)) {
         
         pararams["task"] = task
@@ -217,7 +223,6 @@ class YONewWorkRequestTool: NSObject {
             
                do{
                   let json = try JSON(data: response.res_data!)
-                print(json)
                   if JSON.null != json{
                      
                      let aResult = self.handleResponse(JSON: json)
@@ -232,6 +237,77 @@ class YONewWorkRequestTool: NSObject {
         
     }
     
+    
+    func getHomeSystemMessage(Task task: String,Handler comp: @escaping((result)->Void))  {
+        
+        pararams["task"] = task
+        YONetWork.requestWith(Method: .get, URL: baseUrl + AppSystemMsg, Paramas: pararams, Token: nil) { (reponseData) in
+            
+            do{
+                  let json = try JSON(data: reponseData.res_data!)
+                print(json)
+                  if JSON.null != json{
+                     
+                     let aResult = self.handleResponse(JSON: json)
+                    
+                     comp(aResult)
+                 }
+                   
+               }catch{}
+
+            
+        }
+
+        
+    }
+    
+    
+    
+    func getHomeChatItemList(Task task :String, systemOfTime time:String,Handler comp: @escaping((result)->Void)) {
+        pararams["task"] = task
+        pararams["hourSystem"] = time
+        YONetWork.requestWith(Method: .get, URL: baseUrl + AppDoctor, Paramas: pararams, Token: nil) { (reponseData) in
+               do{
+                     let json = try JSON(data: reponseData.res_data!)
+                     if JSON.null != json{
+                        
+                        let aResult = self.handleResponse(JSON: json)
+                       
+                        comp(aResult)
+                    }
+                      
+                  }catch{}
+
+               
+           }
+     
+    }
+    
+    
+    
+    func getSystemMsgListAccroding(Task task:String,curPage pageNO:String,maxRequestNum pageSize:String,Handler comp: @escaping((result)->Void)){
+        
+        pararams["task"] = task
+        pararams["pageIndex"] = pageNO
+        pararams["pageSize"] = pageSize
+        YONetWork.requestWith(Method: .get, URL: baseUrl + AppSystemMsg, Paramas: pararams, Token: nil) { (reponseData) in
+            do{
+                  let json = try JSON(data: reponseData.res_data!)
+
+                  if JSON.null != json{
+                     
+                     let aResult = self.handleResponse(JSON: json)
+                    
+                     comp(aResult)
+                 }
+                   
+               }catch{}
+
+            
+        }
+        
+        
+    }
     
     
 }

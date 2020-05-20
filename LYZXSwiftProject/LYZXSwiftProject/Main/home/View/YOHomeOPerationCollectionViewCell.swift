@@ -134,7 +134,6 @@ class YOHomeOPerationCollectionViewCell: UICollectionViewCell {
         
         setUpChildVC()
         
-        
        self.askPatientButton.addTarget(self, action: #selector(askPatientAction(button:)), for: UIControl.Event.touchUpInside)
         
        self.consultButton.addTarget(self, action: #selector(payConsultAction), for: .touchUpInside)

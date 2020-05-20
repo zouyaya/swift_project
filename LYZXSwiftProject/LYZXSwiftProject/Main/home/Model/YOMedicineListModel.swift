@@ -42,3 +42,35 @@ struct HomeBannerModel:HandyJSON {
     var homeTopBannerUrl: String?
     
 }
+
+
+struct HomeChatItemModel:HandyJSON {
+    
+    var sendTime: String?
+    var msgContent: String?
+    var patientIconUrl: String?
+    var msgType: String?
+    var sendTimeMill:String?
+    var patientId :String?
+    var expireTime: String?
+    var patientName:String?
+    var unReadCount:Int?
+    
+}
+
+
+struct BlueModel:HandyJSON {
+   
+    var title: String?
+    var readFlag: String?
+    var id: String?
+    var clickType :String?
+    var appEvent: String?
+    var clickUrl: String?
+    var icon: String?
+    var msgType: String?
+    var msgContent: String?
+    var time: String?
+    var noReadNum: String?
+  
+}
