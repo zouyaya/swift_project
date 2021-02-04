@@ -19,6 +19,9 @@ class YOSystemMsgPicTableViewCell: UITableViewCell {
     class func initCellWithTableView(with taleView :UITableView) -> YOSystemMsgPicTableViewCell {
         
         let identify = "YOSystemMsgPicTableViewCell"
+        
+        
+        
         var cell:YOSystemMsgPicTableViewCell? = taleView.dequeueReusableCell(withIdentifier: identify) as? YOSystemMsgPicTableViewCell
         if cell == nil {
             
